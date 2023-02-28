@@ -2,35 +2,32 @@
 </script>
 
 <template>
+  <nav>
 
-<nav>
-      <div>
 
-            <div>
+    <div class="_name">
 
-            </div>
+    </div>
 
-            <div>
+    <div>
 
-            </div>
+    </div>
 
-            <div>
+    <div>
 
-            </div>
-            
-      </div>      
-</nav>
-        
+    </div>
+
+
+  </nav>
+  <div class="test"></div>
 </template>
 
 
 
-<style scoped>
-
-nav{
-  width: 100%;
+<style >
+nav {
+  width: 882px;
   height: 40px;
   background-color: bisque;
 }
-
 </style>
