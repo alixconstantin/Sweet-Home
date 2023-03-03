@@ -10,7 +10,7 @@ import NavBar from './components/NavBar.vue'
   </header>
 
   <main class="test">
-
+    
   </main>
 
 </template>
@@ -20,12 +20,7 @@ import NavBar from './components/NavBar.vue'
 <style>
 /* Document
    ========================================================================== */
-  body {
-    width: 100%;
-  }
-   #app {
-    width: 100%;
-   }
+
   header{
     width: 100%;
     display: flex;
@@ -48,7 +43,11 @@ html {
  
 }
 
-
+main {
+  height: 3000px;
+  width: 100%;
+  background-color: rgb(195, 63, 63);
+}
 
 /* Sections
      ========================================================================== */
