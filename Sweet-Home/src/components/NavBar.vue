@@ -1,4 +1,5 @@
 <script setup>
+
 </script>
 
 <template>
@@ -6,7 +7,7 @@
   <nav>
 
     <div class="nav_name">
-      <img src="../images/animal.png" alt="cat logo">
+      <!-- <img src="../images/animal.png" alt="cat logo"> -->
       Alix Constantin
     </div>
 
