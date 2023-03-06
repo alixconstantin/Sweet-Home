@@ -39,6 +39,11 @@ html {
   justify-content: center;
 }
 
+.test {
+  width:100%;
+  height:300px;
+  background:red;
+}
 @media screen and (min-width: 885px) {
  
 }
