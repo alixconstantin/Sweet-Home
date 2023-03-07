@@ -30,9 +30,6 @@
 
   </nav>
 
-  <div class="test">
-
-  </div>
 </template>
 
 
@@ -55,7 +52,7 @@ nav {
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  background-color: aqua; 
+  /*background-color: aqua;*/
   width: 30%;
   height: 100%;
   font-family: 'M PLUS Rounded 1c', sans-serif;
@@ -63,13 +60,13 @@ nav {
 
 .nav_name img {
   width: 33px;
-  padding-right: 13px;
+  padding-right: 9px;
   margin-bottom: 8px;
 }
 
 
 .nav_options {
-  background-color: rgb(144, 101, 184);
+ /* background-color: rgb(144, 101, 184);*/
   height: 100%;
   width: 50%;
   display: flex;
@@ -77,7 +74,6 @@ nav {
 .nav_options_option {
   height: 100%;
   width: 25%;
-  border: 3px solid red;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -94,7 +90,7 @@ padding:6px;
 }
 
 .nav_lightMode {
-  background-color: rgb(210, 114, 114);
+  /*background-color: rgb(210, 114, 114);*/
   height: 100%;
   width: 30%;
   display: flex;
@@ -103,8 +99,8 @@ padding:6px;
 }
 
 .nav_lightMode_toggle {
-  height: 50px;
-  width: 50px;
+  height: 38px;
+  width: 38px;
   background-image: radial-gradient(circle, #fbd38b, #f9cf82, #f8cb7a, #f6c671, #f4c268);
   margin-right: 3px;
   border-radius: 10px;
@@ -138,12 +134,7 @@ padding:6px;
 }
 
 .nav_lightMode_toggle img {
-  width: 23px;
+  width: 19px;
 }
 
-.test {
-  width: 100%;
-  height:30000px;
-  background-color: aquamarine;
-}
 </style>

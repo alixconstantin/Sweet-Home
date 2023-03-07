@@ -1,5 +1,6 @@
 <script setup>
 import NavBar from './components/NavBar.vue'
+import Scene from './components/Scene.vue'
 </script>
 
 
@@ -10,8 +11,9 @@ import NavBar from './components/NavBar.vue'
   </header>
 
   <main class="test">
-    
+    <Scene/>
   </main>
+  
 
 </template>
 
